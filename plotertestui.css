@@ -130,3 +130,11 @@ body{
   image-rendering: high-quality;
   transition: all 100ms;
 }
+
+
+math-field{
+  font-size: 26px;
+  margin-left: 0rem;
+  padding:0; 
+  transform: translateX(-15px) translateY(8px);
+}

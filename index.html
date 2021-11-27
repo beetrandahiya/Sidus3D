@@ -47,7 +47,7 @@
                             <img src="./content/icons/appsblack.png" alt="Apps" border="0" width="26px" id="apps-btn">
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">plotterPARAM</a>
+                            <a class="dropdown-item" href="https://beetrandahiya.github.io/SidusPARAM/">plotterPARAM</a>
                             <a class="dropdown-item" href="https://beetrandahiya.github.io/Sidus/">Sidus</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
@@ -77,20 +77,19 @@
                 <li class="nav-item mt-2 mb-2">
                     <span class="row">
                         <span class="col-3 mt-2 mb-2" style="font-family: 'Artifika', serif;font-size: 25px; ">x(t)= </span>
-                            <math-field class="col-8" id="inputfuncx" style="font-size: 26px;margin-left: 0rem;
-                            padding:0; transform: translateX(-15px) translateY(8px); outline:none;" onchange="plotgraph()"></math-field>
+                            <math-field class="col-8" id="inputfuncx"  onchange="plotgraph()"></math-field>
                         </span>
                 </li>
                 <li class="nav-item mt-2 mb-2">
                     <span class="row">
-                        <span class="col-3 mt-2 mb-2" style="font-family: 'Artifika', serif;font-size: 25px; ">y(t)= </span><math-field class="col-8" id="inputfuncy" style="font-size: 26px;margin-left: 0rem;
-                        padding:0;transform: translateX(-15px) translateY(8px); outline:none;" onchange="plotgraph()"></math-field>
+                        <span class="col-3 mt-2 mb-2" style="font-family: 'Artifika', serif;font-size: 25px; ">y(t)= </span>
+                        <math-field class="col-8" id="inputfuncy"  onchange="plotgraph()"></math-field>
                         </span>
                 </li>
                 <li class="nav-item mt-2 mb-4">
                     <span class="row">
-                        <span class="col-3 mt-2 mb-2" style="font-family: 'Artifika', serif;font-size: 25px; ">z(t)= </span><math-field class="col-8" id="inputfuncz" style="font-size: 26px;margin-left: 0rem;
-                        padding:0;transform: translateX(-15px) translateY(8px); outline:none;" onchange="plotgraph()"></math-field>
+                        <span class="col-3 mt-2 mb-2" style="font-family: 'Artifika', serif;font-size: 25px; ">z(t)= </span>
+                        <math-field class="col-8" id="inputfuncz"  onchange="plotgraph()"></math-field>
                         </span>
                 </li>
                     <li class="nav-item">
@@ -105,9 +104,7 @@
                         </span>
                     </li>
                 </ul>
-               <!-- <div class="fixed-bottom justify-content-center" id="plot-container" style="box-sizing: border-box;;">
-                    <button id="plotbtn">Plot</button>
-                </div>-->
+              
             </div>
             <main class="col-8 col-lg-9 h-100" id="workspace">
               <div id="plotarea"></div>
