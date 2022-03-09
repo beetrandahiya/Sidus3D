@@ -98,7 +98,7 @@ wrkrng=wrkwdth/60;
   var layout = {
 autosize: false,
   width: wrkwdth, 
-    height: 600,
+    height: 640,
     margin: {
       l: 20,
       r: 20,
